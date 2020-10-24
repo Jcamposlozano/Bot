@@ -11,9 +11,10 @@ class bot:
             time.sleep(1)
             now = datetime.now()
             horacatual = now.strftime('%H:%M:%S')
-            print(horacatual)
+            print(horacatual)            
 
 
     def iniciar(self):
         t = Timer(5.0, self.observadorRelog)
         t.start()
+
