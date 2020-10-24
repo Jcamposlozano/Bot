@@ -14,7 +14,7 @@ class bot:
             now = datetime.now()
             horacatual = now.strftime('%H:%M:%S')
 
-            if horacatual == '10:14:30':
+            if horacatual == '10:31:30':
                 i = Indicadores()
                 try:
                     trm , uvr , dtf, desempleo = i.indicadoresTotales()
@@ -22,6 +22,7 @@ class bot:
                     print("uvr  = " + uvr)
                     print("dtf  = " + dtf)
                     print("desempleo  = " + desempleo)
+                    exit()
                 except (Exception) as error:
                     print(error)                 
                 
