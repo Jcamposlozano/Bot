@@ -1,11 +1,11 @@
-'''
+
 from bot import *
 
 b = bot()
 b.iniciar()
+
+
 '''
-
-
 from Indicadores import *
 
 i = Indicadores()
@@ -15,3 +15,4 @@ try:
     print(desempleo)
 except (Exception) as error:
     print(error) 
+'''
